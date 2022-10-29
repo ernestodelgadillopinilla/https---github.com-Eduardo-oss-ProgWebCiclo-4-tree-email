@@ -33,4 +33,4 @@ def email():
         return 'Correo electrónico enviado'
     except Exception as e:
         print(e.message)
-        return 'Error enviando el mensaje'
+        return 'Error no se ha podido enviar el mensaje el mensaje'
